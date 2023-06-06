@@ -1,45 +1,45 @@
 
 
- variable "name"  {
+variable "name" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "location" {
+variable "location" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "resource_group_name" {
+variable "resource_group_name" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "publisher_name" {
+variable "publisher_name" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "publisher_email" {
+variable "publisher_email" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "sku_name" {
+variable "sku_name" {
   description = "value"
-  type        = string 
+  type        = string
 }
 #  variable "notification_sender_email" {
 #   description = "value"
 #   type        = string 
 # }
- variable "public_network_access_enabled" {
+variable "public_network_access_enabled" {
   description = "value"
-  type        = bool 
-  default = true
+  type        = bool
+  default     = true
 }
- variable "virtual_network_type" {
+variable "virtual_network_type" {
   description = "value"
-  type        = string 
+  type        = string
 }
- variable "virtual_network_configuration" {
+variable "virtual_network_configuration" {
   description = "value"
-  type        = string 
+  type        = string
 }
 #  variable "tenant_access" {
 #   description = "value"
